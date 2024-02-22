@@ -91,6 +91,7 @@ Resources:
     Properties:
       ResourceGroupName: !Ref ApplicationResourceGroup
       AutoConfigurationEnabled: 'true'
+      
 
   ApiUrlSSM:
     Type: AWS::SSM::Parameter
